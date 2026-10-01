@@ -1,0 +1,36 @@
+{
+  "Random Forest / Grid": {
+    "model__max_depth": 3,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 80
+  },
+  "XGBoost / Grid": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 4,
+    "model__n_estimators": 80
+  },
+  "LightGBM / Grid": {
+    "model__learning_rate": 0.03,
+    "model__n_estimators": 160,
+    "model__num_leaves": 4
+  },
+  "Random Forest / Optuna": {
+    "model__n_estimators": 100,
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__max_features": "sqrt"
+  },
+  "XGBoost / Optuna": {
+    "model__n_estimators": 140,
+    "model__learning_rate": 0.027575529238707534,
+    "model__max_depth": 3,
+    "model__min_child_weight": 2,
+    "model__colsample_bytree": 0.8368209952651108
+  },
+  "LightGBM / Optuna": {
+    "model__n_estimators": 100,
+    "model__learning_rate": 0.1499992666483151,
+    "model__num_leaves": 7,
+    "model__min_child_samples": 6
+  }
+}

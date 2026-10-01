@@ -1,0 +1,124 @@
+{
+  "features": [
+    "alcohol",
+    "malic_acid",
+    "ash",
+    "alcalinity_of_ash",
+    "magnesium",
+    "total_phenols",
+    "flavanoids",
+    "nonflavanoid_phenols",
+    "proanthocyanins",
+    "color_intensity",
+    "hue",
+    "od280/od315_of_diluted_wines",
+    "proline"
+  ],
+  "labels_pt": [
+    "Álcool",
+    "Ácido málico",
+    "Cinzas",
+    "Alcalinidade das cinzas",
+    "Magnésio",
+    "Fenóis totais",
+    "Flavonoides",
+    "Fenóis não flavonoides",
+    "Proantocianinas",
+    "Intensidade da cor",
+    "Tonalidade",
+    "OD280/OD315 de vinhos diluídos",
+    "Prolina"
+  ],
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "defaults": {
+    "alcohol": 13.01,
+    "malic_acid": 1.81,
+    "ash": 2.36,
+    "alcalinity_of_ash": 19.5,
+    "magnesium": 97.0,
+    "total_phenols": 2.335,
+    "flavanoids": 2.135,
+    "nonflavanoid_phenols": 0.34,
+    "proanthocyanins": 1.56,
+    "color_intensity": 4.64,
+    "hue": 0.96,
+    "od280/od315_of_diluted_wines": 2.78,
+    "proline": 673.5
+  },
+  "ranges": {
+    "alcohol": [
+      11.03,
+      14.83
+    ],
+    "malic_acid": [
+      0.74,
+      5.8
+    ],
+    "ash": [
+      1.36,
+      3.22
+    ],
+    "alcalinity_of_ash": [
+      10.6,
+      30.0
+    ],
+    "magnesium": [
+      70.0,
+      162.0
+    ],
+    "total_phenols": [
+      0.98,
+      3.88
+    ],
+    "flavanoids": [
+      0.34,
+      3.74
+    ],
+    "nonflavanoid_phenols": [
+      0.13,
+      0.63
+    ],
+    "proanthocyanins": [
+      0.42,
+      3.58
+    ],
+    "color_intensity": [
+      1.28,
+      13.0
+    ],
+    "hue": [
+      0.48,
+      1.71
+    ],
+    "od280/od315_of_diluted_wines": [
+      1.27,
+      3.92
+    ],
+    "proline": [
+      278.0,
+      1515.0
+    ]
+  },
+  "modelo": "LightGBM",
+  "estrategia": "Optuna",
+  "cv_f1": 0.9665130149001117,
+  "cv_std": 0.024339446935768345,
+  "gap": 0.033486985099888344,
+  "test_metrics": {
+    "f1_macro": 1.0,
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "log_loss": 0.0052102812715341135
+  },
+  "integrantes": {
+    "564711": "Pedro Rodrigues Almeida",
+    "561732": "Alexandre Martins Lucas",
+    "562298": "Vitor Carvalho Alexandre",
+    "570133": "Gabriel Barbosa"
+  }
+}

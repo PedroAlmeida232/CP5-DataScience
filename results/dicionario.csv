@@ -1,0 +1,14 @@
+variável,significado,tipo
+alcohol,Álcool,numérica contínua
+malic_acid,Ácido málico,numérica contínua
+ash,Cinzas,numérica contínua
+alcalinity_of_ash,Alcalinidade das cinzas,numérica contínua
+magnesium,Magnésio,numérica contínua
+total_phenols,Fenóis totais,numérica contínua
+flavanoids,Flavonoides,numérica contínua
+nonflavanoid_phenols,Fenóis não flavonoides,numérica contínua
+proanthocyanins,Proantocianinas,numérica contínua
+color_intensity,Intensidade da cor,numérica contínua
+hue,Tonalidade,numérica contínua
+od280/od315_of_diluted_wines,OD280/OD315 de vinhos diluídos,numérica contínua
+proline,Prolina,numérica contínua

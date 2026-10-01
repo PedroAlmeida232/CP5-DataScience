@@ -1,0 +1,27 @@
+[
+  {
+    "id_amostra": 121,
+    "classe": 1,
+    "paridade_interface": true
+  },
+  {
+    "id_amostra": 108,
+    "classe": 1,
+    "paridade_interface": true
+  },
+  {
+    "id_amostra": 66,
+    "classe": 1,
+    "paridade_interface": true
+  },
+  {
+    "id_amostra": 62,
+    "classe": 1,
+    "paridade_interface": true
+  },
+  {
+    "id_amostra": 130,
+    "classe": 2,
+    "paridade_interface": true
+  }
+]
